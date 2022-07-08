@@ -1,0 +1,12 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: consumerzk-order
+
+  #服务别名----注册zookeeper到注册中心名称
+  cloud:
+    zookeeper:
+      connect-string: 192.168.10.231:2181
+
